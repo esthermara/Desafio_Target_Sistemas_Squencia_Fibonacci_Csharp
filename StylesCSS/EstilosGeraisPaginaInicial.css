@@ -1,0 +1,70 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url('/Image/fibonacciBranca.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #34495e;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+}
+
+.btn-Verificar {
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    width: 100px;
+    height: 80px;
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    background-image: url('/Image/calculatorbtn.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto; /* Ajuste o tamanho da imagem conforme necessário */
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .btn-Verificar:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }
+
+.btn-Limpar {
+    cursor: pointer; /* Altera o cursor para a forma de uma mão */
+    border-radius: 10px; /* Valor do raio dos cantos arredondados */
+    width: 100px;
+    height: 80px;
+    line-height: normal; /* Redefine a altura da linha para evitar alinhamento vertical inadequado */
+    background-color: #dc0424;
+    background-image: url('/Image/limpa.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto; /* Ajuste o tamanho da imagem conforme necessário */
+    transition: transform 0.3s; /* Adicione uma transição suave para o efeito de zoom */
+}
+
+    .btn-Limpar:hover {
+        transform: scale(1.2); /* Aumenta o tamanho em 10% quando o mouse passa por cima */
+    }
+
+#lblResultado {
+    font-size: 18px;
+    color: #2ecc71;
+    margin-top: 20px;
+}
